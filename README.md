@@ -51,22 +51,6 @@ Google Serper API
 ConversationBufferWindowMemory
 
 
-
-### Project Structure
-
-    ├── data/
-    │   ├── pdfs/             # Directory for storing PDF files
-    │   ├── text/             # Directory for storing text files
-    │
-    ├── src/
-    │   ├── main.py           # Main execution script
-    │   ├── utils.py          # Utility functions
-    │   ├── web_scraper.py    # Web scraping utilities
-    │   ├── pdf_processor.py  # PDF processing module
-    │
-    ├── README.md             # Project documentation
-    ├── requirements.txt      # Dependencies
-
 ### Setup Instructions
 
 **Clone the Repository:**
@@ -84,11 +68,7 @@ ConversationBufferWindowMemory
     export GOOGLE_CSE_ID=your_google_cse_id
     export GOOGLE_API_KEY=your_google_api_key
     export GROQ_API_KEY=your_groq_api_key
-    export SERPER_API_KEY=your_serper_api_key
-
-**Run the Agent:**
-
-    python src/main.py
+    export SERPER_API_KEY=your_serper_api_k
 
 ### Usage
 
@@ -116,7 +96,7 @@ Implementing fine-tuned models for domain-specific queries.
 
 **Web Interface:** Create interface for future easy access
 
-Contribution
+### Contribution
 
 We welcome contributions! To contribute:
 
