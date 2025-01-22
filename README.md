@@ -55,7 +55,7 @@ ConversationBufferWindowMemory
 
 **Clone the Repository:**
 
-    git clone https://github.com/yourusername/ai-agent-rag.git
+    git clone https://github.com/Bakhshial/AI-Powered-Agent-with-RAG-and-Langchain.git
     cd ai-agent-rag
 
 **Install Dependencies:**
@@ -65,8 +65,6 @@ ConversationBufferWindowMemory
 **Configure API Keys:**
 
     Add your API keys to environment variables in Google Colab or .env file.
-    export GOOGLE_CSE_ID=your_google_cse_id
-    export GOOGLE_API_KEY=your_google_api_key
     export GROQ_API_KEY=your_groq_api_key
     export SERPER_API_KEY=your_serper_api_k
 
