@@ -70,10 +70,12 @@ ConversationBufferWindowMemory
 ### Setup Instructions
 
 **Clone the Repository:**
+
     git clone https://github.com/yourusername/ai-agent-rag.git
     cd ai-agent-rag
 
 **Install Dependencies:**
+
     pip install -r requirements.txt
 
 **Configure API Keys:**
@@ -85,6 +87,7 @@ ConversationBufferWindowMemory
     export SERPER_API_KEY=your_serper_api_key
 
 **Run the Agent:**
+
     python src/main.py
 
 ### Usage
@@ -100,6 +103,30 @@ Query real-time information from web sources.
 **Conversational AI:**
 Engage in context-aware conversations with memory.
 
+### Future Work
+
+**Enhanced Database Integration:**
+Future versions will support integration with relational and NoSQL databases.
+
+**Multi-modal Data Processing:**
+Expanding capabilities to include image and audio data analysis.
+
+**Improved Model Fine-tuning:**
+Implementing fine-tuned models for domain-specific queries.
+
+**Web Interface:** Create interface for future easy access
+
+Contribution
+
+We welcome contributions! To contribute:
+
+Fork the repository.
+
+Create a new branch for your feature.
+
+Commit your changes and push to your fork.
+
+Open a pull request.
 
 ### License
 
